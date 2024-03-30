@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: -100vw;
+  top: 0;
+  width: 70vw;
+  height: 120vh;
+  overflow: auto;
+  background: radial-gradient(46.41% 73.99% at 46.63% 48.05%, #331e92 0%, #1f0b51 92.82%);
+  transition: left 0.3s ease;
+  left: 0;
+  width: 219.99px;
+  height: 100vh;
+  box-shadow: 0px -5px 25px 0px #00032080;
+
+}
+
+.modal.open {
+  left: 0;
+}
+
+.modal-content {
+  margin: 15% auto;
+  padding: 20px;
+}
+
+.image-text {
+  margin-bottom: 20px;
+}
+
+.image-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text {
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+a {
+  color: #616A8B;
+  text-decoration: none;
+}
+
+.vniz {
+  position: absolute;
+  bottom: 7vh;
+}
+
+.imagete {
+  padding-top: 10px;
+}
+
+header {
+  color: #fff;
+  padding: 10px;
+}
+
+.search-input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 298.99px;
+  height: 32px;
+  border-radius: 25px;
+  opacity: 0px;
+  margin-left: 5px;
+  background: #231d69;
+  box-shadow: 0px 4px 20px 0px #03103480;
+  padding-top: 2vh;
+  margin-top: 2vh;
+  margin-left: 2vh;
+}
+
+.iline {
+  padding-top: 3vh;
+}
+
+.container {
+  margin-left: 220px;
+  background: radial-gradient(46.41% 73.99% at 46.63% 48.05%, #20135C 0%, #140739 92.82%);
+  width: 90%;
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+}
+
+.add_widjet {
+  position: relative;
+  float: right;
+  margin-right: 8%;
+  transform: translateY(-50%);
+  width: 125px;
+  height: 32px;
+  border: none;
+  border-radius: 25px;
+  opacity: 0px;
+  background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+}
+
+.ad {
+  color: white;
+}
+
+.d {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+.header-container {
+  margin-left: 220px;
+  background: radial-gradient(46.41% 73.99% at 46.63% 48.05%, #20135C 0%, #140739 92.82%);
+  ;
+  height: 13vh;
+  width: 90%;
+}
+
+.ob {
+  padding-left: 3%;
+  padding-right: 3%;
+}

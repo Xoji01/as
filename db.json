@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "ba15",
+      "email": "skajsksjahahahah@gmail.com",
+      "name": "a",
+      "surname": "a",
+      "password": "a"
+    },
+    {
+      "id": "0561",
+      "email": "b@gmail.com",
+      "name": "b",
+      "surname": "b",
+      "password": "b"
+    },
+    {
+      "id": "c171",
+      "email": "l@gmail.com",
+      "name": "l",
+      "surname": "l",
+      "password": "l"
+    },
+    {
+      "id": "b487",
+      "email": "w@gmail.com",
+      "name": "w",
+      "surname": "w",
+      "password": "w"
+    },
+    {
+      "id": "6923",
+      "email": "k@gmail.com",
+      "name": "k",
+      "surname": "k",
+      "password": "k"
+    },
+    {
+      "id": "2b7e",
+      "email": "q@gmail.com",
+      "name": "q",
+      "surname": "q",
+      "password": "q"
+    }
+  ],
+  "wallets": [
+    {
+      "id": "0.11956511639042944",
+      "created_at": "30.03.2024",
+      "updated_at": "30.03.2024",
+      "user_id": "0561",
+      "name": "as",
+      "currency": "AED",
+      "balance": "22"
+    },
+    {
+      "id": "0.9082887636166355",
+      "created_at": "30.03.2024",
+      "updated_at": "30.03.2024",
+      "name": "as",
+      "currency": "AED",
+      "balance": "22"
+    },
+    {
+      "id": "0.024924622813906616",
+      "created_at": "30.03.2024",
+      "updated_at": "30.03.2024",
+      "name": "id",
+      "currency": "AED",
+      "balance": "223"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <style>
+    * {
+      padding: 0px;
+      margin: 0 auto;
+      box-sizing: border-box;
+    }
+
+    .block {
+      position: absolute;
+      top: 20%;
+      bottom: 50%;
+      left: 10%;
+      text-align: left;
+
+
+      text-align: center;
+      width: 480px;
+      height: 500px;
+
+      border-radius: 8px 0px 0px 0px;
+      opacity: 0px;
+      background: #1E1156;
+      box-shadow: 0px 25px 25px 0px #00032080;
+
+
+    }
+
+    h1 {
+      padding-bottom: 20px;
+      color: white;
+    }
+
+    .signin {
+      width: 105px;
+      height: 42px;
+      top: 2145px;
+      left: 484px;
+      gap: 0px;
+      border-radius: 8px 0px 0px 0px;
+      opacity: 0px;
+      background: linear-gradient(88.43deg, #2F3453 11.5%, #242845 76.7%);
+
+    }
+    .signup{
+      width: 105px;
+      height: 42px;
+      top: 2145px;
+      left: 484px;
+      gap: 0px;
+      border-radius: 8px 0px 0px 0px;
+      opacity: 0px;
+      background: linear-gradient(271.88deg, #3887FE 4.26%, #3BA0FF 51.37%, #5FB2FF 99.01%);
+ 
+    }
+
+    input {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      width: 380px;
+      height: 58px;
+      top: 1939px;
+      left: 410px;
+      gap: 0px;
+      border-radius: 8px 0px 0px 0px;
+      opacity: 0px;
+      background: #2E3558;
+
+    }
+
+    .fon {
+      background: radial-gradient(46.41% 73.99% at 46.63% 48.05%, #20135C 0%, #140739 92.82%);
+      width: 100vw;
+      height: 100vh;
+    }
+
+    a {
+      color:#5FB2FF;
+      width: 143px;
+height: 17px;
+top: 2290px;
+left: 529px;
+gap: 0px;
+opacity: 0px;
+margin-top: 20px;
+
+    }
+
+    .d {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    } .form-container {
+      width: 50%; 
+      padding: 20px;
+      background-color: #1E1156;
+      border-radius: 8px;
+      box-shadow: 0px 25px 25px 0px #00032080;
+      color: white;
+    }
+
+    .image-container {
+      position: absolute;
+      top: 50%;
+      right: 20%;
+      transform: translateY(-50%);
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="fon">
+
+      <div class="block">
+        <div class="d">
+          <form name="signup">
+            <h1>Welcome</h1>
+            <input type="email" name="email" placeholder="Email"><br>
+            <input type="text" name="name" placeholder="name" ><br>
+            <input type="text" name="surname" placeholder="surname" ><br>
+            <input type="password" name="password" placeholder="Password" ><br>
+            <div class="button-container">
+              <button class="signin">signup</button>
+              <button  class="signup"> <a href="/pages/signin/"></a>Sign in</button>
+            </div>
+          </form>
+          <a href="/pages/signin/index.html">forgot your password?</a>
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="/Group 8.png" alt="Image">
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
